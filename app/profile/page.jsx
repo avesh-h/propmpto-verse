@@ -30,6 +30,7 @@ const MyProfile = () => {
       } catch (error) {}
     }
   };
+
   return (
     <div>
       <Profile
