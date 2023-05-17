@@ -1,5 +1,5 @@
-import { connectToDB } from "@utils/database";
-import Prompt from "@models/prompt";
+import { connectToDB } from "../../../../utils/database";
+import Prompt from "../../../../models/prompt";
 
 // this route handle three request together like for delete or edit the specific prompt we have to pass specific id of that prompt
 

@@ -1,5 +1,5 @@
-import { connectToDB } from "@utils/database";
-import Prompt from "@models/prompt";
+import { connectToDB } from "../../../../utils/database"
+import Prompt from "../../../../models/prompt";
 
 //Instead of we used to create express server create route for that and then check the request.body , here we directly create route here in api folder and making use here
 

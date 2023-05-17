@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import Form from "@components/Form";
+import Form from "../../components/Form";
 
 //useSession hook is used to know which user is currently logged in
 const CreatePrompt = () => {
