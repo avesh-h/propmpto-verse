@@ -9,8 +9,12 @@ export const GET = async (req, res) => {
 
     return new Response(JSON.stringify(prompts), { status: 200 });
   } catch (error) {
-    return new Response(JSON.stringify("failed to fetch all the posts"), {
-      status: 500,
-    });
+    console.log("errrrrrrrrrrr", error);
+    return new Response(
+      JSON.stringify(error.message || "failed to fetch all the posts"),
+      {
+        status: 500,
+      }
+    );
   }
 };
