@@ -15,8 +15,6 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
     navigator.clipboard.writeText(post.prompt);
     setTimeout(() => setCopied(""), 3000);
   };
-  // console.log("copied", copied);
-  console.log("post", post);
   const handleProfileClick = () => {
     if (session?.user?.id === post.creator._id) router.push("/profile");
     else {
